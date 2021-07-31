@@ -1,11 +1,7 @@
-import React from 'react';
+import React from "react";
 
-function App() {
-  return (
-    <div className="App">
-      Start here.
-    </div>
-  );
-}
+const message = () => <h1>Welcome to learn React</h1>;
+
+const App = () => message();
 
 export default App;
